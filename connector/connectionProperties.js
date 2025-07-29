@@ -11,15 +11,5 @@
     props["dialect"] = "mongosql";
     props["clientInfo"] = "tableau-connector+0.0.0";
 
-    props["LogDir"] = "console";
-    if (attr["v-log-directory"] != null && attr["v-log-directory"] !== "") {
-        props["LogDir"] = attr["v-log-directory"];
-    }
-
-    props["LogLevel"] = "OFF";
-    if(attr["v-loglevel"] != null && attr["v-loglevel"] !== "") {
-        props["LogLevel"] = attr["v-loglevel"];
-    }
-
     return props;
 })
