@@ -8,7 +8,7 @@
       <option value="auth-user-pass" label="Username and Password"/>
       <option value="auth-none" label="X509" />
       <option value="auth-user" label="GSSAPI" />
-      <option value="auth-token" label="Token" />
+      <option value="auth-integrated" label="OIDC" />
     </selection-group>
   </field>
 
